@@ -9,7 +9,9 @@
 .thred-color{
     color: white;
 }
-
+.tomato-back{
+    background-color: rgba(233, 90, 8, 1);
+}
 
 .fonts-family {
   font-family: "Noto Serif", serif;
@@ -33,4 +35,28 @@
     position: absolute;
     top: -123px;
     right: -105px;
+}
+.back-img-1{
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.back-img-2{
+    background-image: url(assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.back-img-3{
+    background-image: url(assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.back-img{
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
