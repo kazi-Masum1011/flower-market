@@ -26,3 +26,11 @@
 .position{
     align-items: end;
 }
+.possiontio{
+    position: relative;
+}
+.pop{
+    position: absolute;
+    top: -123px;
+    right: -105px;
+}
