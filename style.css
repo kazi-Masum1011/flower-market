@@ -184,6 +184,9 @@
     .input2{
         padding-right: 20px;
     }
+    .tomato-back{
+        margin-left: -2px;
+    }
     /* footer-last section*/
     .footer-last{
         display: grid;
