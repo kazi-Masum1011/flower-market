@@ -60,3 +60,142 @@
     background-position: center;
     background-size: cover;
 }
+.our-plants p{
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+.trust-ditles h2{
+    width: 72%;
+}
+
+@media screen and (max-width: 430px) {
+    
+.header{
+        max-width: 430px;
+    }
+    nav{
+        padding-top: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav-img{
+        width: 63px;
+        overflow: hidden;
+    }
+    .nav-ul{
+        gap: 0px;
+    }
+    .ul-child{
+        visibility: hidden;
+    }
+    /* hero banner */
+    .bannrer-hero{
+        flex-direction: column-reverse;
+        margin-top: 28px;
+        align-items: start;
+    }
+    .banner-hero-img{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 24px;
+    }
+    .bannrer-hero-continer{
+        padding: 28px 16px 0px 16px;
+    }
+    /* main section */
+    .main{
+        max-width: 430px;
+    }
+    /* our-plants */
+    .plants-main{
+        margin-top: 65px;
+    }
+    .our-plants h2{
+        font-size: 24px;
+    }
+    .our-plants p{
+        width: 80%;
+    }
+    .card-continer{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 20px;
+        padding: 0px 15px 15px;
+    }
+    /* turest */
+    .turest-continer{
+        flex-direction: column;
+        margin-top: 41px;
+        text-align: left;
+    }
+    .turest-praent{
+        width: 100%;
+    }
+   .turest-praent-child1{
+        padding: 0px 15px;
+   }
+   .turest-praent-child2{
+    width: 0px;
+    visibility: hidden;
+   }
+   .trust-ditles h2{
+    font-size: 24px;
+   }
+   .trust-ditles ul{
+    gap: 16px;
+   }
+   /* latest */
+   .latest h2{
+    font-size: 24px;
+   }
+   .latest p{
+    font-size: 14px;
+    width: 72%;
+    margin-top: 16px;
+    margin-bottom: 51px;
+   }
+   .latest-grids-res{
+    grid-template-columns: repeat(1,1fr);
+    padding: 0 15px;
+   }
+   .latest-thred-img h2{
+    font-size: 20px;
+   }
+   .latest-img{
+    left: 24%;
+   }
+   .back-img-3{
+    height: 272px;
+   }
+   /* footer */
+   .back-img h2{
+    font-size: 20px;
+   }
+   .input-grid{
+    display: flex;
+    padding-left: 80px;
+    width: 100%;
+   }
+    .input1{
+        padding-right: 40px;
+    }
+    .input2{
+        padding-right: 20px;
+    }
+    /* footer-last section*/
+    .footer-last{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 0 15px;
+    }
+    .footer-last-child1 p{
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+    .footer-last-child4{
+        margin-top: 16px;
+        margin-bottom: 50px;
+    }
+}

@@ -8,19 +8,19 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>flower-market</title>
 </head>
-<body class=" bg-[#f5f8ff]">
+<body class=" bg-[#f5f8ff] ">
     <!-- start ot header section -->
-    <header class="w-6xl mx-auto ">
+    <header class="w-6xl mx-auto header">
         <!-- start to nav bar -->
         <nav class=" flex items-center justify-between">
-            <div>
-                <img src="assets/logo.png" alt="">
+            <div class="nav-img">
+                <img class="nav-img overflow-hidden" src="assets/logo.png" alt="">
             </div>
             <div>
-                <ul class="flex gap-16 ">
-                    <li><a href="">Home</a></li>
-                    <li class="primary-color"><a href="">Shop</a></li>
-                    <li class="primary-color"><a href="">About us</a></li>
+                <ul class="flex gap-16 nav-ul">
+                    <li class="ul-child"><a href="">Home</a></li>
+                    <li class="primary-color ul-child"><a href="">Shop</a></li>
+                    <li class="primary-color ul-child"><a href="">About us</a></li>
                     <li><a href="">
                         <span class="p-2"><i class="fa-solid fa-cart-shopping"></i></span>
                         Cart ($56)</a></li>
@@ -29,29 +29,29 @@
         </nav>
         <!-- End of nav bar -->
          <!-- start to banner section -->
-        <section class="flex items-end justify-between  mt-30">
-            <div class="gap-2.5">
-                <h2 class="fonts-family font-bold text-7xl mb-2.5">ALWAYS <span class=" sendary-color ">FRESH <br>FLOWERS</span></h2>
-                <p class="primary-color">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </p>
+        <section class="bannrer-hero flex items-end justify-between  mt-30">
+            <div class="gap-2.5 bannrer-hero-continer">
+                <h2 class="fonts-family font-bold text-7xl mb-2.5 banner-title">ALWAYS <span class=" sendary-color ">FRESH <br>FLOWERS</span></h2>
+                <p class="primary-color ">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </p>
             </div>
             <div>
-            <img class="w-xl " src="assets/hero-flower.png" alt=""></div>
+            <img class="w-xl banner-hero-img overflow-hidden" src="assets/hero-flower.png" alt=""></div>
         </section>
         <!-- End of banner section -->
          
     </header>
     <!-- End of header section -->
      <!-- stard to main section -->
-    <main class="w-6xl mx-auto ">
+    <main class="w-6xl mx-auto main">
         <!-- stard to plants section -->
-          <section class="mt-28">
-            <div class="text-center mb-11">
-                <h2 class="font-bold text-5xl">
-                    <span class="sendary-color ">Our</span>
+          <section class="mt-28 plants-main">
+            <div class="text-center mb-11 our-plants">
+                <h2 class="font-bold text-5xl fonts-family">
+                    <span class="sendary-color">Our</span>
                     Plants</h2>
-                <p class="primary-color">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <p class="primary-color">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
-            <div class="grid grid-cols-4 Inter-fonts gap-x-28 ">
+            <div class=" grid grid-cols-4 Inter-fonts gap-x-28 card-continer">
                 <div class=" pb-7 text-center">
                     <img class="w-full" src="assets/sample-flower-image.png" alt="">
                     <h2 class="font-medium pt-7 text-xl">Lily Blossom</h2>
@@ -106,16 +106,16 @@
 
 
            <!-- stard to turest section -->
-            <section class="flex justify-between mt-28 items-center mb-28">
-                <div class=" possiontio">
-                    <img class="" src="assets/flower-store.png" alt="">
-                    <img class="w-2xs pop" src="assets/trusted-badge.png" alt="">
+            <section class=" flex justify-between mt-28 items-center mb-28 turest-continer">
+                <div class=" possiontio turest-praent">
+                    <img class="turest-praent-child1" src="assets/flower-store.png" alt="">
+                    <img class=" lg:w-2xs md:w-2xs pop turest-praent-child2" src="assets/trusted-badge.png" alt="">
                 </div>
-                <div class="text-left">
-                    <h2 class="fonts-family text-6xl font-bold leading-20 mb-4">Flower & Plants<br>Lover</h2>
-                    <ul class="grid gap-5 opacity-50 Inter-fonts">
+                <div class="text-left trust-ditles">
+                    <h2 class="fonts-family text-5xl font-bold leading-20 mb-4 ">Flower & Plants Lover</h2>
+                    <ul class="grid gap-5 opacity-50 Inter-fonts pl-10">
                         <li class="list-disc list-outside">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic<br> roses to exotic blooms, we offer a wide variety<br> of fresh.</li>
-                        <li class="list-disclist-outside">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic<br> roses to exotic blooms, we offer a wide variety<br> of fresh.</li>
+                        <li class="list-disc list-outside">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic<br> roses to exotic blooms, we offer a wide variety<br> of fresh.</li>
                         <li class="list-disc list-outside">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic<br> roses to exotic blooms, we offer a wide variety<br> of fresh.</li>
                     </ul>    
                 </div>
@@ -124,33 +124,33 @@
 
             <!--stard Latest  Deals section -->
             <section class="text-center mb-28">
-                <div class="mb-5 grid">
-                    <h2 class="font-bold text-5xl fonts-family"><span class="sendary-color">Latest</span>  Deals</h2>
-                    <p class="Inter-fonts opacity-50 text-xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <div class="mb-5 latest ">
+                    <h2 class="font-bold text-5xl fonts-family"><span class="sendary-color">Latest</span> Deals</h2>
+                    <p class="Inter-fonts opacity-50 text-xl m-auto w-3xl pt-4 pb-24">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
                 </div>
-                <div class="grid-cols-2 grid gap-4 text-white">
+                <div class="grid-cols-2 grid gap-4 text-white latest-grids-res">
                     <div class="grid gap-4 ">
                         <div class="back-img-1 rounded-2xl h-68 flex  items-center justify-center">
-                            <div class="w-full h-full relative fonts-family">
-                                <div class="bg-black z-10 w-full h-full opacity-40"></div>
-                                <div class="absolute top-[45%] left-[30%]"><h2 class="font-bold text-xl">60% Off | Bloom Plant</h2>
+                            <div class="w-full h-full relative fonts-family ">
+                                <div class="bg-black z-10 rounded-2xl w-full h-full opacity-40"></div>
+                                <div class="absolute top-[45%] left-[30%] latest-img"><h2 class="font-bold text-xl">60% Off | Bloom Plant</h2>
                                 <button class="font-semibold underline">Shop Now</button></div>
                             </div>
                         </div>
                          <div class="back-img-2 rounded-2xl h-68 flex  items-center justify-center">
-                            <div class="w-full h-full relative fonts-family">
-                                <div class="bg-black z-10 w-full h-full opacity-40"></div>
-                                <div class="absolute top-[45%] left-[30%]">
-                                <h2 class="font-bold text-xl">30% Off | Bloom Plant</h2>
+                            <div class="w-full h-full relative fonts-family ">
+                                <div class="bg-black z-10 rounded-2xl w-full h-full opacity-40"></div>
+                                <div class="absolute top-[45%] left-[30%] latest-img">
+                                <h2 class="font-bold text-xl ">30% Off | Bloom Plant</h2>
                                 <button class="font-semibold underline">Shop Now</button></div>
                             </div>
                         </div>
                     </div>
-                    <div class="back-img-3 rounded-2xl h-140 flex items-center justify-center">
+                    <div class="back-img-3 rounded-2xl h-140 flex items-center justify-center hhh">
                         
-                        <div class="w-full h-full relative fonts-family">
-                            <div class="bg-black z-10 w-full h-full opacity-40"></div>
-                            <div class="absolute top-[45%] left-[18%]">
+                        <div class="w-full h-full relative fonts-family  latest-thred-img">
+                            <div class="bg-black z-10 rounded-2xl w-full h-full opacity-40"></div>
+                            <div class="absolute top-[45%] left-[18%] latest-img">
                             <h2 class="font-bold text-4xl ">25% Off | Bloom Plant</h2>
                             <button class="font-semibold text-xl underline">Shop Now</button>
                             </div>
@@ -163,18 +163,18 @@
     </main>
     <!-- End of main section -->
      <!-- start to footer section -->
-    <footer>
+    <footer class="">
         <!--stard to search section -->
             <section class="back-img text-center pt-48 pb-48">
                 <h2 class="font-bold text-5xl fonts-family text-white  pb-5">Join the colorful Bunch</h2>
-                <div>
-                    <input class="bg-white pt-3 pb-3 pl-3.5 pr-76 mr-0" type="email" placeholder="write email">
-                    <input class="tomato-back pt-3 pb-3 pl-2.5 pr-36 -ml-10 text-white " type="submit">
+                <div class="input-grid">
+                    <input class="bg-white pt-3 pb-3 pl-3.5 pr-76 mr-0 input1" type="email" placeholder="write email">
+                    <input class="tomato-back pt-3 pb-3 pl-2.5 pr-36 -ml-10 text-white input2" type="submit">
                 </div>
             </section>
             <!--stard to search section -->
-            <section class="w-6xl mx-auto flex justify-between mt-12">
-                <div>
+            <section class="w-6xl mx-auto flex justify-between mt-12 header footer-last">
+                <div class="footer-last-child1">
                     <img class="pb-4" src="assets/logo.png" alt="">
                     <p class="primary-color">Indulge your senses with the <br>beauty and fragrance of our fresh <br>flower shop.</p>
                 </div>
@@ -196,7 +196,7 @@
                         <li class="pb-4"><a href="">Help Center</a></li>
                     </ul>
                 </div>
-                <div class="flex gap-6 items-center h-3 ">
+                <div class="flex gap-6 items-center h-3 footer-last-child4">
                     <a href="https://www.linkedin.com/">
                         <img src="assets/icon-linkedin.png" alt="">
                     </a>
